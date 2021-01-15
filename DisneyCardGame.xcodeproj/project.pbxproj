@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BBA5ABD25B0FA23007AEB00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA5ABC25B0FA23007AEB00 /* AppDelegate.swift */; };
+		5BBA5ABF25B0FA23007AEB00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA5ABE25B0FA23007AEB00 /* SceneDelegate.swift */; };
+		5BBA5AC425B0FA23007AEB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBA5AC225B0FA23007AEB00 /* Main.storyboard */; };
+		5BBA5AC625B0FA25007AEB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBA5AC525B0FA25007AEB00 /* Assets.xcassets */; };
+		5BBA5AC925B0FA25007AEB00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBA5AC725B0FA25007AEB00 /* LaunchScreen.storyboard */; };
+		5BBA5AD825B0FA95007AEB00 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA5AD725B0FA95007AEB00 /* Character.swift */; };
+		5BBA5ADD25B0FBF1007AEB00 /* Character Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA5ADC25B0FBF1007AEB00 /* Character Controller.swift */; };
+		5BBA5AE425B10495007AEB00 /* CharacterSelectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA5AE325B10495007AEB00 /* CharacterSelectionCollectionViewCell.swift */; };
+		5BBA5AF025B108F7007AEB00 /* CardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA5AEF25B108F7007AEB00 /* CardCollectionViewController.swift */; };
+		5BBA5AF325B111A8007AEB00 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA5AF225B111A8007AEB00 /* FilterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BBA5AB925B0FA23007AEB00 /* DisneyCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBA5ABC25B0FA23007AEB00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BBA5ABE25B0FA23007AEB00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5BBA5AC325B0FA23007AEB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BBA5AC525B0FA25007AEB00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BBA5AC825B0FA25007AEB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BBA5ACA25B0FA25007AEB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBA5AD725B0FA95007AEB00 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		5BBA5ADC25B0FBF1007AEB00 /* Character Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character Controller.swift"; sourceTree = "<group>"; };
+		5BBA5AE325B10495007AEB00 /* CharacterSelectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		5BBA5AEF25B108F7007AEB00 /* CardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewController.swift; sourceTree = "<group>"; };
+		5BBA5AF225B111A8007AEB00 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BBA5AB625B0FA23007AEB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BBA5AB025B0FA23007AEB00 = {
+			isa = PBXGroup;
+			children = (
+				5BBA5ABB25B0FA23007AEB00 /* DisneyCardGame */,
+				5BBA5ABA25B0FA23007AEB00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BBA5ABA25B0FA23007AEB00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA5AB925B0FA23007AEB00 /* DisneyCardGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BBA5ABB25B0FA23007AEB00 /* DisneyCardGame */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA5AE225B10450007AEB00 /* Custom Cell */,
+				5BBA5ADF25B0FD61007AEB00 /* View Controllers */,
+				5BBA5ADB25B0FBBC007AEB00 /* Model Controller  */,
+				5BBA5AD625B0FA75007AEB00 /* Model */,
+				5BBA5AD125B0FA3F007AEB00 /* Resources */,
+				5BBA5AD525B0FA61007AEB00 /* Storyboard */,
+			);
+			path = DisneyCardGame;
+			sourceTree = "<group>";
+		};
+		5BBA5AD125B0FA3F007AEB00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA5ABC25B0FA23007AEB00 /* AppDelegate.swift */,
+				5BBA5ABE25B0FA23007AEB00 /* SceneDelegate.swift */,
+				5BBA5AC525B0FA25007AEB00 /* Assets.xcassets */,
+				5BBA5ACA25B0FA25007AEB00 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BBA5AD525B0FA61007AEB00 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA5AC225B0FA23007AEB00 /* Main.storyboard */,
+				5BBA5AC725B0FA25007AEB00 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5BBA5AD625B0FA75007AEB00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA5AD725B0FA95007AEB00 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BBA5ADB25B0FBBC007AEB00 /* Model Controller  */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA5ADC25B0FBF1007AEB00 /* Character Controller.swift */,
+			);
+			path = "Model Controller ";
+			sourceTree = "<group>";
+		};
+		5BBA5ADF25B0FD61007AEB00 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA5AEF25B108F7007AEB00 /* CardCollectionViewController.swift */,
+				5BBA5AF225B111A8007AEB00 /* FilterViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5BBA5AE225B10450007AEB00 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA5AE325B10495007AEB00 /* CharacterSelectionCollectionViewCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BBA5AB825B0FA23007AEB00 /* DisneyCardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBA5ACD25B0FA25007AEB00 /* Build configuration list for PBXNativeTarget "DisneyCardGame" */;
+			buildPhases = (
+				5BBA5AB525B0FA23007AEB00 /* Sources */,
+				5BBA5AB625B0FA23007AEB00 /* Frameworks */,
+				5BBA5AB725B0FA23007AEB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisneyCardGame;
+			productName = DisneyCardGame;
+			productReference = 5BBA5AB925B0FA23007AEB00 /* DisneyCardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BBA5AB125B0FA23007AEB00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5BBA5AB825B0FA23007AEB00 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 5BBA5AB425B0FA23007AEB00 /* Build configuration list for PBXProject "DisneyCardGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BBA5AB025B0FA23007AEB00;
+			productRefGroup = 5BBA5ABA25B0FA23007AEB00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BBA5AB825B0FA23007AEB00 /* DisneyCardGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BBA5AB725B0FA23007AEB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBA5AC925B0FA25007AEB00 /* LaunchScreen.storyboard in Resources */,
+				5BBA5AC625B0FA25007AEB00 /* Assets.xcassets in Resources */,
+				5BBA5AC425B0FA23007AEB00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BBA5AB525B0FA23007AEB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBA5AF325B111A8007AEB00 /* FilterViewController.swift in Sources */,
+				5BBA5AF025B108F7007AEB00 /* CardCollectionViewController.swift in Sources */,
+				5BBA5AD825B0FA95007AEB00 /* Character.swift in Sources */,
+				5BBA5ABD25B0FA23007AEB00 /* AppDelegate.swift in Sources */,
+				5BBA5ADD25B0FBF1007AEB00 /* Character Controller.swift in Sources */,
+				5BBA5ABF25B0FA23007AEB00 /* SceneDelegate.swift in Sources */,
+				5BBA5AE425B10495007AEB00 /* CharacterSelectionCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BBA5AC225B0FA23007AEB00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BBA5AC325B0FA23007AEB00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BBA5AC725B0FA25007AEB00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BBA5AC825B0FA25007AEB00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BBA5ACB25B0FA25007AEB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BBA5ACC25B0FA25007AEB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BBA5ACE25B0FA25007AEB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U594HCHAMT;
+				INFOPLIST_FILE = DisneyCardGame/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarlaDarnley.DisneyCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BBA5ACF25B0FA25007AEB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U594HCHAMT;
+				INFOPLIST_FILE = DisneyCardGame/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarlaDarnley.DisneyCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BBA5AB425B0FA23007AEB00 /* Build configuration list for PBXProject "DisneyCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBA5ACB25B0FA25007AEB00 /* Debug */,
+				5BBA5ACC25B0FA25007AEB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BBA5ACD25B0FA25007AEB00 /* Build configuration list for PBXNativeTarget "DisneyCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBA5ACE25B0FA25007AEB00 /* Debug */,
+				5BBA5ACF25B0FA25007AEB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BBA5AB125B0FA23007AEB00 /* Project object */;
+}
